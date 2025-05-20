@@ -2,7 +2,7 @@
 
 # Bunko Shelf
 
-<p><img title="Bunko Shelf Logo" src="favicon.png" width="320" height="320"></p>
+<p><img title="Bunko Shelf Logo" src="/public/favicon.png" width="320" height="320"></p>
 
 </div>
 

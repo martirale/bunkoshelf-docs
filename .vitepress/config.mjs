@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   lang: "es",
   title: "Bunko Shelf",
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
   description: "Self-hosted server for managing-reading manga & ebooks.",
   lastUpdated: true,
 

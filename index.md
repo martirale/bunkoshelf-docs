@@ -3,15 +3,14 @@ layout: home
 
 hero:
   name: "Bunko Shelf"
-  text: "Self-hosted server for managing-reading manga & ebooks."
-  tagline: My great project tagline
+  text: "Servidor autohospedado para administrar y leer manga y libros electrónicos"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Guía de Instalación
+      link: /guia/instalacion
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Guía de Usuario
+      link: /referencia/
 
 features:
   - title: Feature A

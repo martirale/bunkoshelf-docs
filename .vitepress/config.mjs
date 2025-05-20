@@ -9,21 +9,32 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "Administración", link: "/guia/instalacion" },
       { text: "Usuarios", link: "/referencia/" },
+      { text: "Administración", link: "/guia/instalacion" },
     ],
 
-    sidebar: [
-      {
-        text: "Guía",
-        items: [
-          { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
-          { text: "Instalación", link: "/guia/instalacion" },
-        ],
-      },
-    ],
+    sidebar: {
+      "/referencia/": [],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/martirale" }],
+      "/guia/": [
+        {
+          text: "Guía",
+          items: [
+            { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
+            { text: "Instalación", link: "/guia/instalacion" },
+          ],
+        },
+      ],
+    },
+
+    search: {
+      provider: "local",
+    },
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/martirale" },
+      { icon: "instagram", link: "https://www.instagram.com/itsmrtr" },
+    ],
 
     footer: {
       message: "De un otaku al que le gusta leer para el mundo",

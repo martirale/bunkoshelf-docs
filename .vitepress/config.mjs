@@ -24,6 +24,32 @@ export default defineConfig({
             { text: "Instalación", link: "/guia/instalacion" },
           ],
         },
+        {
+          text: "Otros",
+          collapsed: true,
+          items: [
+            { text: "Registro de cambios", link: "/otros/changelog" },
+            { text: "Licencia", link: "/otros/licencia" },
+          ],
+        },
+      ],
+
+      "/otros/": [
+        {
+          text: "Guía",
+          items: [
+            { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
+            { text: "Instalación", link: "/guia/instalacion" },
+          ],
+        },
+        {
+          text: "Otros",
+          collapsed: true,
+          items: [
+            { text: "Registro de cambios", link: "/otros/changelog" },
+            { text: "Licencia", link: "/otros/licencia" },
+          ],
+        },
       ],
     },
 

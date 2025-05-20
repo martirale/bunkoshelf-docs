@@ -41,7 +41,7 @@ docker compose up -d
 
 ## Método 2: Docker Run
 
-Si por el contrario preferimos la línea de comandos y hacerlo a mano, siempre podemos hacerlo vía `docker run`:
+Si por el contrario, preferimos la línea de comandos y hacerlo a mano, siempre podemos hacerlo vía `docker run`:
 
 ```bash
 docker run -d \
@@ -66,26 +66,18 @@ Todas las rutas posibles al contenedor. **Es requisito** definir en el `compose.
 
 ## Actualización
 
-El proceso de actualización es bastante rápido y sencillo. Gracias al volumen nombrado (`bunko_db`) la base de datos con los mangas indexados, progreso de lectura, favoritos y usuarios no se perderán al reconstruir el contenedor.
+El proceso de actualización es bastante rápido y sencillo (con Docker Compose). Gracias al volumen nombrado (`bunko_db`) la base de datos con los mangas indexados, progreso de lectura, favoritos y usuarios no se perderán al reconstruir el contenedor.
 
 Si no modificaste el nombre del contenedor en el `compose.yml` o en el `docker run`, el nombre por defecto será `bunkoshelf`.
 
-1. Detenemos el contenedor:
+1. Actualizamos la imagen del contenedor:
 
 ```bash
-docker stop bunkoshelf
+docker compose pull bunkoshelf
 ```
 
-2. Eliminamos el contenedor:
+2. Recreamos el contenedor:
 
 ```bash
-docker rm bunkoshelf
+docker compose up -d --force-recreate
 ```
-
-3. Ejecutamos nuevamente el `compose.yml`:
-
-```bash
-docker compose up -d
-```
-
-Si desplegamos usando `docker run`, en lugar de ejecutar `docker compose up -d`, ejecutaremos el comando completo de instalación con `docker run`.

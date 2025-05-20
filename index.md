@@ -6,11 +6,11 @@ hero:
   text: "Servidor autohospedado para administrar y leer manga y libros electrónicos"
   actions:
     - theme: brand
-      text: Guía de Instalación
-      link: /guia/instalacion
-    - theme: alt
       text: Guía de Usuario
       link: /referencia/
+    - theme: alt
+      text: Guía de Instalación
+      link: /guia/instalacion
 
 features:
   - title: Feature A

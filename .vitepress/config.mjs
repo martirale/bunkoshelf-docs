@@ -10,12 +10,25 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "Usuarios", link: "/referencia/" },
+      { text: "Usuarios", link: "/referencia/inicio" },
       { text: "Administración", link: "/guia/instalacion" },
     ],
 
     sidebar: {
-      "/referencia/": [],
+      "/referencia/": [
+        {
+          text: "Empezando",
+          items: [{ text: "Funciones básicas", link: "/referencia/funciones" }],
+        },
+        {
+          text: "Biblioteca",
+          items: [
+            { text: "Manga", link: "/referencia/manga" },
+            { text: "Libros", link: "/referencia/libros" },
+            { text: "Metadatos", link: "/referencia/metadatos" },
+          ],
+        },
+      ],
 
       "/guia/": [
         {

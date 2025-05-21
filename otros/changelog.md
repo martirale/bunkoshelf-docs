@@ -2,13 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.9.0 <Badge type="tip" text="Última" />
+<!-- ## v0.9.0 <Badge type="tip" text="Última" />
 
 ### Corregido
 
-- Eliminación automática de series y volúmenes huérfanos durante el escaneo
+- Eliminación automática de series y volúmenes huérfanos durante el escaneo -->
 
-## v0.8.1
+## v0.8.1 <Badge type="tip" text="Última" />
 
 ### Añadido
 

@@ -1,6 +1,8 @@
 # Licencia
 
-Este software es una aplicación web autoalojable para la gestión y lectura de mangas, distribuida exclusivamente como una imagen de Docker ya compilada. Su uso está sujeto a los siguientes términos:
+Bunko Shelf ™ & © 2025 Alejandro Mártir.
+
+Este software es una aplicación web autoalojable para la gestión y lectura de mangas, distribuida exclusivamente como una imagen Docker ya compilada. Su uso está sujeto a los siguientes términos:
 
 ## Derechos de uso
 

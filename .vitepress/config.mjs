@@ -13,7 +13,7 @@ export default defineConfig({
       { text: "Guía", link: "/guia/instalacion" },
       { text: "Referencia", link: "/referencia/inicio" },
       {
-        text: "0.9.0",
+        text: "0.8.1",
         items: [
           { text: "Changelog", link: "/otros/changelog" },
           { text: "Licencia", link: "/otros/licencia" },

@@ -70,3 +70,11 @@ docker run -d \
   -v $(pwd)/public/covers:/app/public/covers \
   itsmrtr/bunkoshelf:latest
 ```
+
+## Monitoreo
+
+Para supervisar los registros del contenedor, puedes utilizar el siguiente comando:
+
+```bash
+docker logs -f bunkoshelf
+```

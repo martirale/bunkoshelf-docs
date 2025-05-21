@@ -1,6 +1,12 @@
 # Changelog
 
-## v0.8.1 <Badge type="tip" text="Latest" />
+## v0.9.0 <Badge type="tip" text="Latest" />
+
+**Fixes:**
+
+- Automatic removal of orphaned series and volumes at scan
+
+## v0.8.1
 
 - Complete refactoring of the library scanner
 - Add new version available tracker

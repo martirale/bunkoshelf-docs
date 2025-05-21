@@ -10,17 +10,49 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "Usuarios", link: "/referencia/inicio" },
-      { text: "Administración", link: "/guias/instalacion" },
+      { text: "Guía", link: "/guia/instalacion" },
+      { text: "Referencia", link: "/referencia/inicio" },
+      {
+        text: "0.9.0",
+        items: [
+          { text: "Changelog", link: "/otros/changelog" },
+          { text: "Licencia", link: "/otros/licencia" },
+        ],
+      },
     ],
 
     sidebar: {
+      "/guia/": [
+        {
+          text: "Introducción",
+          items: [
+            { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
+            { text: "Instalación", link: "/guia/instalacion" },
+          ],
+        },
+        {
+          text: "Referencia",
+          items: [
+            { text: "Escáner", link: "/guia/escaner" },
+            { text: "Bibliotecas", link: "/guia/bibliotecas" },
+          ],
+        },
+        {
+          text: "Otros",
+          collapsed: true,
+          items: [
+            { text: "Registro de cambios", link: "/otros/changelog" },
+            { text: "Licencia", link: "/otros/licencia" },
+          ],
+        },
+      ],
+
       "/referencia/": [
         {
           text: "Empezando",
           items: [
             { text: "App", link: "/referencia/app" },
-            { text: "Funciones básicas", link: "/referencia/funciones" },
+            { text: "Funciones", link: "/referencia/funciones" },
           ],
         },
         {
@@ -34,26 +66,6 @@ export default defineConfig({
         {
           text: "Control de acceso",
           items: [{ text: "Control parental", link: "/referencia/parental" }],
-        },
-      ],
-
-      "/guias/": [
-        {
-          text: "Guías",
-          items: [
-            { text: "¿Qué es Bunko Shelf?", link: "/guias/bunkoshelf" },
-            { text: "Instalación", link: "/guias/instalacion" },
-            { text: "Escáner", link: "/guias/escaner" },
-            { text: "Bibliotecas", link: "/guias/bibliotecas" },
-          ],
-        },
-        {
-          text: "Otros",
-          collapsed: true,
-          items: [
-            { text: "Registro de cambios", link: "/otros/changelog" },
-            { text: "Licencia", link: "/otros/licencia" },
-          ],
         },
       ],
 

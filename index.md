@@ -10,7 +10,7 @@ hero:
       link: /referencia/inicio
     - theme: alt
       text: Guía de Instalación
-      link: /guia/instalacion
+      link: /guias/instalacion
 
 features:
   - title: Feature A

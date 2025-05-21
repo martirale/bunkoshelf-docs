@@ -11,14 +11,17 @@ export default defineConfig({
     nav: [
       { text: "Inicio", link: "/" },
       { text: "Usuarios", link: "/referencia/inicio" },
-      { text: "Administración", link: "/guia/instalacion" },
+      { text: "Administración", link: "/guias/instalacion" },
     ],
 
     sidebar: {
       "/referencia/": [
         {
           text: "Empezando",
-          items: [{ text: "Funciones básicas", link: "/referencia/funciones" }],
+          items: [
+            { text: "App", link: "/referencia/app" },
+            { text: "Funciones básicas", link: "/referencia/funciones" },
+          ],
         },
         {
           text: "Biblioteca",
@@ -28,14 +31,19 @@ export default defineConfig({
             { text: "Metadatos", link: "/referencia/metadatos" },
           ],
         },
+        {
+          text: "Control de acceso",
+          items: [{ text: "Control parental", link: "/referencia/parental" }],
+        },
       ],
 
-      "/guia/": [
+      "/guias/": [
         {
-          text: "Guía",
+          text: "Guías",
           items: [
-            { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
-            { text: "Instalación", link: "/guia/instalacion" },
+            { text: "¿Qué es Bunko Shelf?", link: "/guias/bunkoshelf" },
+            { text: "Instalación", link: "/guias/instalacion" },
+            { text: "Escáner", link: "/guias/escaner" },
           ],
         },
         {

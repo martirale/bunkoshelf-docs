@@ -2,8 +2,9 @@
 
 ## v0.8.1 <Badge type="tip" text="Latest" />
 
+- Complete refactoring of the library scanner
+- Add new version available tracker
 - Add new version available alert
-- Add new version tracker
 
 ## v0.7.0
 

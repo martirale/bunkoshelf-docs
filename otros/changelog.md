@@ -1,6 +1,11 @@
 # Changelog
 
-## v0.7.0 <Badge type="tip" text="Latest" />
+## v0.8.1 <Badge type="tip" text="Latest" />
+
+- Add new version available alert
+- Add new version tracker
+
+## v0.7.0
 
 - Add currently reading manga hero section
 - Add recently readded manga section

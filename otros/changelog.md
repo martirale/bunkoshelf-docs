@@ -2,13 +2,17 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-<!-- ## v0.9.0 <Badge type="tip" text="Última" />
+## v0.9.0 <Badge type="info" text="2025-05-X" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Paginación en página de biblioteca (pestaña de volúmenes)
 
 ### Corregido
 
-- Eliminación automática de series y volúmenes huérfanos durante el escaneo -->
+- Eliminación automática de series y volúmenes huérfanos durante el escaneo
 
-## v0.8.1 <Badge type="tip" text="Última" />
+## v0.8.1 <Badge type="info" text="2025-05-21" />
 
 ### Añadido
 
@@ -19,7 +23,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 - Refactorización completa del escáner de biblioteca
 
-## v0.7.0
+## v0.7.0 <Badge type="info" text="2025-05-20" />
 
 ### Añadido
 
@@ -27,7 +31,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 - Sección de manga recientemente reañadido
 - Modo incógnito de lectura
 
-## v0.6.0-beta
+## v0.6.0-beta <Badge type="info" text="2025-05-19" />
 
 ### Añadido
 
@@ -38,7 +42,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 - Error que impedía actualizar la base de datos en producción
 
-## v0.5.0-beta
+## v0.5.0-beta <Badge type="info" text="2025-05-18" />
 
 ### Añadido
 
@@ -56,7 +60,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 - Ruta incorrecta de portadas en entorno de producción
 
-## v0.4.0-alpha
+## v0.4.0-alpha <Badge type="info" text="2025-05-16" />
 
 ### Añadido
 
@@ -71,7 +75,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 - Reestructuración del directorio de componentes de biblioteca
 - Actualización de APIs de componentes del lado cliente
 
-## v0.3.0-alpha
+## v0.3.0-alpha <Badge type="info" text="2025-05-14" />
 
 ### Añadido
 
@@ -87,7 +91,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 - Orden correcto de volúmenes y series por título y numeración
 - Carga de fuentes personalizadas en clases utilitarias de Tailwind
 
-## v0.2.0-alpha
+## v0.2.0-alpha <Badge type="info" text="2025-05-13" />
 
 ### Añadido
 
@@ -101,7 +105,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 - Refactorización de componentes del servidor (de `fetch` a Prisma)
 
-## v0.1.0-alpha
+## v0.1.0-alpha <Badge type="info" text="2025-05-10" />
 
 ### Añadido
 

@@ -2,11 +2,11 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.9.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+## v0.10.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
-- Paginación en página de biblioteca (pestaña de volúmenes)
+- Paginación en página de biblioteca (series y volúmenes)
 
 ### Actualizado
 

@@ -19,7 +19,7 @@ export default defineConfig({
         activeMatch: "/referencia/",
       },
       {
-        text: "0.10.0",
+        text: "0.11.0",
         items: [
           { text: "Changelog", link: "/otros/changelog" },
           { text: "Licencia", link: "/otros/licencia" },

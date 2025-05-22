@@ -2,11 +2,16 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.9.0 <Badge type="info" text="2025-05-X" /> <Badge type="tip" text="Última" />
+## v0.9.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
 - Paginación en página de biblioteca (pestaña de volúmenes)
+
+### Actualizado
+
+- JSON con versión y enlace al changelog
+- Traducciones
 
 ### Corregido
 
@@ -54,7 +59,10 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 - Optimización del tamaño de la imagen Docker
 - Optimización de la lógica de componentes en biblioteca, perfil y ajustes
-- Actualización de traducciones
+
+### Actualizado
+
+- Traducciones
 
 ### Corregido
 

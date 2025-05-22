@@ -1,12 +1,14 @@
 # Instalación
 
+## Docker
+
 La imagen está publicada en **Docker Hub** y puede ser desplegada en casi cualquier instancia Linux que tenga Docker instalado. En el caso de **Docker para Windows**, es posible levantarla, pero solo si se ejecuta en **modo WSL 2** o con una configuración adecuada para imágenes Linux.
 
 :::warning USUARIO PRIVILEGIADO
 En todo el procedimiento estamos operando con el usuario `root`. Si no es tu caso, asegúrate de que tu usuario en uso **tenga privilegios de administrador** y añade el comando `sudo` al inicio de cada comando `docker`.
 :::
 
-## Docker Compose
+### Docker Compose
 
 ::: code-group
 

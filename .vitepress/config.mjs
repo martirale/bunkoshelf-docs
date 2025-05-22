@@ -39,8 +39,8 @@ export default defineConfig({
         {
           text: "Referencia",
           items: [
-            { text: "Escáner", link: "/guia/escaner" },
             { text: "Bibliotecas", link: "/guia/bibliotecas" },
+            { text: "Escáner", link: "/guia/escaner" },
           ],
         },
         {

@@ -11,7 +11,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 ### Actualizado
 
 - JSON con versión y enlace al changelog
-- Traducciones
+- Internacionalización
 
 ### Corregido
 

@@ -8,6 +8,8 @@ export default defineConfig({
   lastUpdated: true,
 
   themeConfig: {
+    logo: "/BunkoShelfLilah.svg",
+    siteTitle: false,
     nav: [
       { text: "Inicio", link: "/" },
       { text: "Guía", link: "/guia/instalacion" },

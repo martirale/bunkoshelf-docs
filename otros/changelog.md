@@ -6,7 +6,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
-- Paginación en página de biblioteca (series y volúmenes)
+- Paginación en biblioteca (series y volúmenes)
 
 ### Actualizado
 

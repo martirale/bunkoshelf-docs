@@ -12,8 +12,12 @@ export default defineConfig({
     siteTitle: false,
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "Guía", link: "/guia/instalacion" },
-      { text: "Referencia", link: "/referencia/inicio" },
+      { text: "Guía", link: "/guia/instalacion", activeMatch: "/guia/" },
+      {
+        text: "Referencia",
+        link: "/referencia/inicio",
+        activeMatch: "/referencia/",
+      },
       {
         text: "0.9.0",
         items: [

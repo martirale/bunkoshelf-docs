@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: Guía de Usuario
-      link: /referencia/inicio
+      link: /referencia/app
     - theme: alt
       text: Guía de Instalación
       link: /guia/instalacion

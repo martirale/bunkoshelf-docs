@@ -1,6 +1,6 @@
 # Licencia
 
-Bunko Shelf ™ & © 2025 Alejandro Mártir.
+Bunko Shelf ™ & © 2025 [Alejandro Mártir](https://alemartir.com).
 
 Este software es una aplicación web autoalojable para la gestión y lectura de mangas, distribuida exclusivamente como una imagen Docker ya compilada. Su uso está sujeto a los siguientes términos:
 
@@ -27,7 +27,7 @@ Este proyecto puede hacer uso de bibliotecas de terceros licenciadas bajo MIT, I
 
 ## Actualizaciones
 
-El software puede recibir actualizaciones periódicas reflejadas en el registro de cambios (changelog) disponible en la documentación oficial. El usuario es responsable de verificar y aplicar dichas actualizaciones si lo desea.
+El software puede recibir actualizaciones periódicas reflejadas en el registro de cambios ([changelog](/otros/changelog.md)) disponible en esta [documentación oficial](/). El usuario es responsable de verificar y aplicar dichas actualizaciones si lo desea.
 
 ## Descargo de responsabilidad
 

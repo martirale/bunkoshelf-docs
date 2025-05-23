@@ -1,13 +1,13 @@
 # Instalación alternativa
 
-## Contenedor + Proxy
+## Proxy inverso
 
-Un proxy es un intermediario que recibe las solicitudes de los usuarios y las reenvía al servidor correspondiente, permitiendo gestionar conexiones, mejorar seguridad y habilitar funcionalidades como HTTPS. En nuestro caso, el proxy se usa principalmente para ofrecer acceso seguro mediante HTTPS a la app, que requiere un certificado válido para el correcto manejo de la autenticación.
+Un proxy inverso es un intermediario que recibe las solicitudes de los usuarios y las reenvía al servidor correspondiente, permitiendo gestionar conexiones, mejorar seguridad y habilitar funcionalidades como HTTPS. En nuestro caso, el proxy se usa principalmente para ofrecer acceso seguro mediante HTTPS a la aplicación, que requiere un certificado válido para el correcto manejo de la autenticación.
 
 Para esta instalación alternativa, usaremos un stack de Docker Compose que incluye una instancia de [Nginx Proxy Manager](https://nginxproxymanager.com/) para que puedas gestionar el certificado SSL y el acceso seguro a **Bunko Shelf.**
 
 :::warning DOMINIO OBLIGATORIO
-El proxy requiere de un dominio (y/o subdominio) real y válido para funcionar.
+El proxy inverso requiere de un dominio (o subdominio) real y válido para funcionar.
 :::
 
 ::: code-group
@@ -45,7 +45,7 @@ volumes:
 
 :::
 
-### Iniciar el contenedor
+### Iniciar el stack
 
 ```bash
 docker compose up -d

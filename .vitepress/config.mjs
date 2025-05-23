@@ -131,7 +131,8 @@ export default defineConfig({
 
     footer: {
       message: "De un otaku friki al que le gusta leer.",
-      copyright: "Bunko Shelf &trade; &amp; &copy; 2025 AM",
+      copyright:
+        "<a href='https://alemartir.com' target='_blank'>Bunko Shelf &trade; &amp; &copy; 2025 AM</a>",
     },
   },
 

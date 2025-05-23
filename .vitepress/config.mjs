@@ -1,4 +1,13 @@
 import { defineConfig } from "vitepress";
+import fs from "node:fs";
+import path from "node:path";
+
+// Ruta al archivo version.json
+const versionFile = path.resolve(__dirname, "../public/version.json");
+
+// Leer y parsear el archivo
+const versionData = JSON.parse(fs.readFileSync(versionFile, "utf-8"));
+const currentVersion = versionData.latest || "0.0.0";
 
 export default defineConfig({
   lang: "es",
@@ -19,7 +28,7 @@ export default defineConfig({
         activeMatch: "/referencia/",
       },
       {
-        text: "0.11.0",
+        text: currentVersion,
         items: [
           { text: "Changelog", link: "/otros/changelog" },
           { text: "Licencia", link: "/otros/licencia" },

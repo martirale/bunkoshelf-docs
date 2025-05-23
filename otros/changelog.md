@@ -2,7 +2,17 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.12.1 <Badge type="info" text="2025-05-22" /> <Badge type="tip" text="Última" />
+## v0.12.5 <Badge type="info" text="2025-05-22" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Cookie de idioma automática
+
+### Cambiado
+
+- Colores y márgenes del botón del menú móvil
+- Márgenes de controles e imágenes en el lector
+- Color de tema PWA
 
 ### Corregido
 

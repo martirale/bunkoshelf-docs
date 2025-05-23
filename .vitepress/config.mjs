@@ -112,6 +112,19 @@ export default defineConfig({
       { icon: "instagram", link: "https://www.instagram.com/itsmrtr" },
     ],
 
+    lastUpdated: {
+      text: "Actualizado",
+      formatOptions: {
+        dateStyle: "medium",
+        timeStyle: "short",
+      },
+    },
+
+    docFooter: {
+      prev: "Página anterior",
+      next: "Próxima página",
+    },
+
     footer: {
       message: "De un otaku friki al que le gusta leer.",
       copyright: "Bunko Shelf &trade; &amp; &copy; 2025 AM",

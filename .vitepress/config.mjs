@@ -17,7 +17,11 @@ export default defineConfig({
   lastUpdated: true,
 
   themeConfig: {
-    logo: "/BunkoShelfLilah.svg",
+    logo: {
+      dark: "/BunkoShelfPearl.svg",
+      light: "/BunkoShelfLilah.svg",
+    },
+
     siteTitle: false,
     nav: [
       { text: "Inicio", link: "/" },

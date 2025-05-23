@@ -10,7 +10,7 @@ const versionData = JSON.parse(fs.readFileSync(versionFile, "utf-8"));
 const currentVersion = versionData.latest || "0.0.0";
 
 export default defineConfig({
-  lang: "es",
+  lang: "es-MX",
   title: "Bunko Shelf",
   head: [["link", { rel: "icon", href: "/favicon.png" }]],
   description: "Self-hosted server for managing-reading manga & ebooks.",

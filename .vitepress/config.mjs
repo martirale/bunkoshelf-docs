@@ -28,7 +28,7 @@ export default defineConfig({
       { text: "Guía", link: "/guia/instalacion", activeMatch: "/guia/" },
       {
         text: "Referencia",
-        link: "/referencia/inicio",
+        link: "/referencia/app",
         activeMatch: "/referencia/",
       },
       {

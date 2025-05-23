@@ -13,10 +13,19 @@ hero:
       link: /guia/instalacion
 
 features:
-  - title: Despliegue Sencillo
+  - icon:
+      dark: /icons/container-pearl.svg
+      light: /icons/container-onix.svg
+    title: Despliegue Sencillo
     details: Autoalojado con un solo comando usando Docker Compose
-  - title: Lectura Optimizada para Manga
+  - icon:
+      dark: /icons/book-open-check-pearl.svg
+      light: /icons/book-open-check-onix.svg
+    title: Lectura Optimizada
     details: Lector enfocado al formato oriental de derecha a izquierda, ideal para manga
-  - title: Multidispositivo Sincronizado
-    details: Accesible desde cualquier dispositivo con progreso de lectura sincronizado
+  - icon:
+      dark: /icons/monitor-smartphone-pearl.svg
+      light: /icons/monitor-smartphone-onix.svg
+    title: Cross-Device Sync
+    details: Accesible desde cualquier dispositivo con progreso de lectura
 ---

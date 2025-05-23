@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.12.6 <Badge type="info" text="2025-05-23" /> <Badge type="tip" text="Última" />
+## v0.12.7 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+
+### Cambiado
+
+- Favicon e iconos de PWA
+
+## v0.12.6 <Badge type="info" text="2025-05-23" />
 
 ### Añadido
 

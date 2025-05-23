@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Bunko Shelf"
-  text: "Servidor autohospedado para manga y libros electrónicos"
+  text: "Servidor autohospedado para manga y libros"
   actions:
     - theme: brand
       text: Guía de Usuario

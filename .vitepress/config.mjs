@@ -113,7 +113,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "De un otaku al que le gusta leer para el mundo",
+      message: "De un otaku friki al que le gusta leer.",
       copyright: "Bunko Shelf &trade; &amp; &copy; 2025 AM",
     },
   },

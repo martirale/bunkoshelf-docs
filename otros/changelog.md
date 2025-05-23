@@ -2,7 +2,7 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.12.5 <Badge type="info" text="2025-05-22" /> <Badge type="tip" text="Última" />
+## v0.12.6 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
@@ -13,6 +13,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 - Colores y márgenes del botón del menú móvil
 - Márgenes de controles e imágenes en el lector
 - Color de tema PWA
+- Enlaces a la guía del usuario
 
 ### Corregido
 

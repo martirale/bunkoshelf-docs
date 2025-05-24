@@ -2,7 +2,17 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.13.0 <Badge type="info" text="2025-05-24" /> <Badge type="tip" text="Última" />
+## v0.14.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+
+### Cambiado
+
+- Resultados de búsqueda ahora priorizan coincidencias por serie y luego por volúmenes
+
+### Corregido
+
+- Manejo asíncrono de `params.slug` en la API de portadas
+
+## v0.13.0 <Badge type="info" text="2025-05-24" />
 
 ### Añadido
 

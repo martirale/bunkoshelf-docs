@@ -117,7 +117,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "docker", link: "https://hub.docker.com/r/itsmrtr/bunkoshelf" },
-      { icon: "threads", link: "https://www.threads.com/@bunkoshelf" },
+      { icon: "x", link: "https://x.com/bunkoshelf" },
       { icon: "github", link: "https://github.com/martirale" },
     ],
 

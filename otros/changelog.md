@@ -2,7 +2,11 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.12.9 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+## v0.13.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Buscador integrado
 
 ### Cambiado
 

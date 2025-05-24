@@ -2,12 +2,16 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.12.8 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+## v0.12.9 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
 
 ### Cambiado
 
 - Favicon e iconos de PWA
 - Duración por defecto del toast provider
+
+### Corregido
+
+- Cantidad de columnas en desktop en la página de series
 
 ## v0.12.6 <Badge type="info" text="2025-05-23" />
 

@@ -2,11 +2,11 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.13.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+## v0.13.0 <Badge type="info" text="2025-05-24" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
-- Buscador integrado
+- Búsqueda integrada por título, autor o serie
 
 ### Cambiado
 
@@ -16,6 +16,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 ### Corregido
 
 - Cantidad de columnas en `2xl` en la página de series
+- Mapeo de portadas tras escaneo en series
 
 ## v0.12.6 <Badge type="info" text="2025-05-23" />
 

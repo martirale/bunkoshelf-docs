@@ -11,7 +11,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ### Corregido
 
-- Cantidad de columnas en desktop en la página de series
+- Cantidad de columnas en `2xl` en la página de series
 
 ## v0.12.6 <Badge type="info" text="2025-05-23" />
 

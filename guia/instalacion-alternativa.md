@@ -23,8 +23,8 @@ services:
       - "81:81"
       - "443:443"
     volumes:
-      - npm_data:/data
-      - npm_letsencrypt:/etc/letsencrypt
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
 
   bunkoshelf:
     image: itsmrtr/bunkoshelf:latest
@@ -38,8 +38,6 @@ services:
       - ./public/covers:/app/public/covers
 
 volumes:
-  npm_data:
-  npm_letsencrypt:
   bunko_db:
 ```
 

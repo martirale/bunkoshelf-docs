@@ -18,15 +18,13 @@ La siguiente tabla describe los formatos admitidos para mangas en Bunko Shelf:
 
 #### Básico
 
-El soporte básico engloba la funcionalidad mínima viable para un formato determinado. El general, esto incluye aspectos cómo:
+El soporte básico engloba la funcionalidad mínima viable para un formato determinado. En general, esto incluye aspectos cómo:
 
 - Descubrimiento de archivos
 - Extracción de metadatos
 - Servicio de archivos
 
 #### Transmisión
-
-## Transmisión
 
 La "compatibilidad con la transmisión" en Bunko Shelf significa que las páginas de un manga se sirven como archivos de imagen individuales accesibles mediante URLs específicas, permitiendo al cliente cargar solo las páginas que necesita visualizar en cada momento. El backend descomprime el volumen completo inicialmente en un directorio temporal y expone cada página como un recurso separado, por lo que no se envía el volumen completo de una sola vez, sino que el cliente descarga cada página de forma individual bajo demanda.
 

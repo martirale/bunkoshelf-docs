@@ -62,13 +62,13 @@ docker compose up -d
 
 **Es requisito** definir en el `compose.yml` la ruta real y absoluta de la biblioteca.
 
-| Ruta                               | Tipo       | Descripción                                                                                    |
-| ---------------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
-| `npm_data:/data`                   | Volumen    | Persistencia de datos de Nginx Proxy Manager. **No modificar**.                                |
-| `npm_letsencrypt:/etc/letsencrypt` | Volumen    | Persistencia de datos de Let's Encrypt. **No modificar**.                                      |
-| `bunko_db`                         | Volumen    | Persistencia de la base de datos. **No modificar**.                                            |
-| `/path/to/your/library/manga`      | Montaje    | **Ruta real de la biblioteca en el host.** Debe ser una ruta válida en el sistema de archivos. |
-| `./public/covers`                  | Directorio | Portadas extraídas de los mangas durante el escaneo de la biblioteca. **No modificar**.        |
+| Ruta                             | Tipo       | Descripción                                                                                    |
+| -------------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
+| `./data:/data`                   | Volumen    | Persistencia de datos de Nginx Proxy Manager. **No modificar**.                                |
+| `./letsencrypt:/etc/letsencrypt` | Volumen    | Persistencia de datos de Let's Encrypt. **No modificar**.                                      |
+| `bunko_db`                       | Volumen    | Persistencia de la base de datos. **No modificar**.                                            |
+| `/path/to/your/library/manga`    | Montaje    | **Ruta real de la biblioteca en el host.** Debe ser una ruta válida en el sistema de archivos. |
+| `./public/covers`                | Directorio | Portadas extraídas de los mangas durante el escaneo de la biblioteca. **No modificar**.        |
 
 ## Monitoreo
 

@@ -2,7 +2,7 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.15.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+## v0.15.0 <Badge type="info" text="2025-05-25" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
@@ -11,6 +11,8 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 ### Cambiado
 
 - Resultados de búsqueda ahora priorizan coincidencias por serie y luego por volúmenes
+- Tamaño de la fuente en `MangaCard` en `2xl:`
+- Posición de caja de búsqueda en el sidebar después del `nav` principal
 
 ### Corregido
 
@@ -29,7 +31,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ### Corregido
 
-- Cantidad de columnas en `2xl` en la página de series
+- Cantidad de columnas en `2xl:` en la página de series
 - Mapeo de portadas tras escaneo en series
 
 ## v0.12.6 <Badge type="info" text="2025-05-23" />

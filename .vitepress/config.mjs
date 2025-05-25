@@ -28,7 +28,7 @@ export default defineConfig({
       { text: "Guía", link: "/guia/instalacion", activeMatch: "/guia/" },
       {
         text: "Referencia",
-        link: "/referencia/inicio",
+        link: "/referencia/app",
         activeMatch: "/referencia/",
       },
       {
@@ -47,6 +47,10 @@ export default defineConfig({
           items: [
             { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
             { text: "Instalación", link: "/guia/instalacion" },
+            {
+              text: "Instalación alternativa",
+              link: "/guia/instalacion-alternativa",
+            },
           ],
         },
         {
@@ -112,8 +116,9 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/martirale/bunkoshelf-docs" },
-      { icon: "instagram", link: "https://www.instagram.com/itsmrtr" },
+      { icon: "docker", link: "https://hub.docker.com/r/itsmrtr/bunkoshelf" },
+      { icon: "x", link: "https://x.com/bunkoshelf" },
+      { icon: "github", link: "https://github.com/martirale" },
     ],
 
     lastUpdated: {

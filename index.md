@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: Guía de Usuario
-      link: /referencia/inicio
+      link: /referencia/app
     - theme: alt
       text: Guía de Instalación
       link: /guia/instalacion
@@ -27,5 +27,5 @@ features:
       dark: /icons/monitor-smartphone-pearl.svg
       light: /icons/monitor-smartphone-onix.svg
     title: Cross-Device Sync
-    details: Accesible desde cualquier dispositivo con progreso de lectura
+    details: Progreso de lectura entre dispositivos (PC, tablet y móvil)
 ---

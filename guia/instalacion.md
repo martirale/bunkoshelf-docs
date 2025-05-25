@@ -1,14 +1,12 @@
 # Instalación
 
-## Docker
+## Docker Compose
 
-La imagen está publicada en **Docker Hub** y puede ser desplegada en casi cualquier instancia Linux que tenga Docker instalado. En el caso de **Docker para Windows**, es posible levantarla, pero solo si se ejecuta en **modo WSL 2** o con una configuración adecuada para imágenes Linux.
+La imagen está publicada en [Docker Hub](https://hub.docker.com/r/itsmrtr/bunkoshelf) y puede ser desplegada en casi cualquier instancia Linux que tenga Docker instalado. En el caso de **Docker para Windows**, es posible levantarla, pero solo si se ejecuta en **modo WSL 2** o con una configuración adecuada para imágenes Linux.
 
-:::warning USUARIO PRIVILEGIADO
-En todo el procedimiento estamos operando con el usuario `root`. Si no es tu caso, asegúrate de que tu usuario en uso **tenga privilegios de administrador** y añade el comando `sudo` al inicio de cada comando `docker`.
+:::warning PROXY INVERSO OBLIGATORIO
+**La aplicación requiere HTTPS para funcionar, lo que implica usar un proxy inverso con certificado válido.** Si no cuentas con un proxy, puedes optar por la [instalación alternativa](/guia/instalacion-alternativa.md).
 :::
-
-### Docker Compose
 
 ::: code-group
 
@@ -56,7 +54,7 @@ docker compose up -d
 | `/path/to/your/library/manga` | Montaje    | **Ruta real de la biblioteca en el host.** Debe ser una ruta válida en el sistema de archivos. |
 | `./public/covers`             | Directorio | Portadas extraídas de los mangas durante el escaneo de la biblioteca. **No modificar**.        |
 
-## Instalación alternativa
+## Docker CLI
 
 Si prefieres la línea de comandos, puedes desplegar el contenedor vía `Docker CLI`:
 

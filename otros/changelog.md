@@ -4,6 +4,10 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ## v0.14.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
 
+### Añadido
+
+- Series en los resultados de búsqueda
+
 ### Cambiado
 
 - Resultados de búsqueda ahora priorizan coincidencias por serie y luego por volúmenes

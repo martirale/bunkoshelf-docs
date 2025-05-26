@@ -8,6 +8,10 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 - Cuadro de búsqueda en móviles
 
+### Corregido
+
+- Colores del menú en móviles
+
 ## v0.15.0 <Badge type="info" text="2025-05-25" />
 
 ### Añadido

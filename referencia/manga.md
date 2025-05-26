@@ -39,7 +39,7 @@ Bunko Shelf busca ofrecer un soporte amplio para imágenes en los mangas. Actual
 
 Asegúrate de que tu navegador admita el formato que planeas usar. Puedes visitar las URL con hipervínculos para comprobarlo. Si usas navegadores modernos como Google Chrome, Microsoft Edge o Apple Safari, no deberías experimentar ningún tipo de incompatibilidad.
 
-## Estructura esperada (CBZ/CBR)
+## Estructura esperada
 
 Para garantizar una correcta lectura y escaneo del contenido, los archivos `.cbz/.cbr` deben seguir esta estructura:
 

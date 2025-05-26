@@ -18,12 +18,12 @@ Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los fic
     <!-- Título de la serie y volumen -->
     <Series></Series>
     <Title></Title>
-    <Number>1</Number>
+    <Number></Number>
 
     <!-- Metadatos de publicación -->
     <Publisher></Publisher>
     <Genre></Genre>
-    <LanguageISO>es</LanguageISO>
+    <LanguageISO></LanguageISO>
     <AgeRating></AgeRating>
 
     <!-- Información de los creadores -->

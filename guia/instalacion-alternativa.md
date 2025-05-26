@@ -6,7 +6,7 @@ Un proxy inverso es un intermediario que recibe las solicitudes de los usuarios 
 
 Para esta instalación alternativa, usaremos un stack de Docker Compose que incluye una instancia de [Nginx Proxy Manager](https://nginxproxymanager.com/) para que puedas gestionar el certificado SSL y el acceso seguro a **Bunko Shelf.**
 
-:::warning DOMINIO OBLIGATORIO
+:::warning DOMINIO NECESARIO
 El proxy inverso requiere de un dominio (o subdominio) real y válido para funcionar.
 :::
 

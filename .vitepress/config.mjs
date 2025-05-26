@@ -74,7 +74,7 @@ export default defineConfig({
         {
           text: "Empezando",
           items: [
-            { text: "App", link: "/referencia/app" },
+            { text: "Web App", link: "/referencia/app" },
             { text: "Funciones", link: "/referencia/funciones" },
           ],
         },

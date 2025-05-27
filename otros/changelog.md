@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.17.0 <Badge type="info" text="2025-05-26" /> <Badge type="tip" text="Última" />
+## v0.17.1 <Badge type="info" text="2025-05-26" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Filtrado de volúmenes por usuario activo
+
+## v0.17.0 <Badge type="info" text="2025-05-26" />
 
 ### Añadido
 

@@ -25,7 +25,7 @@ export default defineConfig({
     siteTitle: false,
     nav: [
       { text: "Inicio", link: "/" },
-      { text: "Guía", link: "/guia/instalacion", activeMatch: "/guia/" },
+      { text: "Guía", link: "/guia/bunkoshelf", activeMatch: "/guia/" },
       {
         text: "Referencia",
         link: "/referencia/app",

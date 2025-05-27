@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.17.1 <Badge type="info" text="2025-05-26" /> <Badge type="tip" text="Última" />
+## v0.18.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Sección "Seguir leyendo" y "Recién añadidos" en la página de inicio
+
+## v0.17.1 <Badge type="info" text="2025-05-26" />
 
 ### Corregido
 

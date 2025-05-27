@@ -2,11 +2,12 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.16.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+## v0.17.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
 - Cuadro de búsqueda en móviles
+- Sección que muestra el siguiente libro a leer en series ya empezadas
 
 ### Corregido
 

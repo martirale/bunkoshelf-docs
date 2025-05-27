@@ -2,7 +2,19 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.15.0 <Badge type="info" text="2025-05-25" /> <Badge type="tip" text="Última" />
+## v0.17.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Cuadro de búsqueda en móviles
+- Sección que muestra el siguiente libro a leer en series ya empezadas
+
+### Corregido
+
+- Colores del menú en móviles
+- Recreación de usuario admin por defecto si ya existe un administrador
+
+## v0.15.0 <Badge type="info" text="2025-05-25" />
 
 ### Añadido
 

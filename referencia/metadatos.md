@@ -1,6 +1,6 @@
 # Metadatos
 
-Los metadatos son un conjunto de información asociada a una obra, como su título, autor, como su título, autor, editorial, entre otros. Los diferentes formatos tienen distintas maneras de almacenar y representar metadatos. Bunko Shelf intentará extraer la mayor cantidad posible de metadatos de un manga o libro, pero no siempre será posible. Por ejemplo, los archivos PDF no suelen tener buena compatibilidad con metadatos y los archivos de mangas (CBZ/CBR) suelen tener metadatos mal formados o inexistentes.
+Los metadatos son un conjunto de información asociada a una obra, como su título, autor, como su título, autor, editorial, entre otros. Los diferentes formatos tienen distintas maneras de almacenar y representar metadatos. **Bunko Shelf** intentará extraer la mayor cantidad posible de metadatos de un manga o libro, pero no siempre será posible. Por ejemplo, los archivos PDF no suelen tener buena compatibilidad con metadatos y los archivos de mangas (CBZ/CBR) suelen tener metadatos mal formados o inexistentes.
 
 ## Fuentes por formato
 
@@ -8,7 +8,7 @@ A continuación, se describen las fuentes de metadatos compatibles por cada form
 
 ### CBZ/CBR
 
-Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los ficheros de tipo CBZ y CBR en caso de existir. Actualmente, Bunko Shelf puede detectar los metadatos de la siguiente plantilla XML (que puedes utilizar para añadir y/o adaptar los metadatos de tus mangas):
+Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los ficheros de tipo CBZ y CBR en caso de existir. Actualmente, **Bunko Shelf** puede detectar los metadatos de la siguiente plantilla XML (que puedes utilizar para añadir y/o adaptar los metadatos de tus mangas):
 
 ::: code-group
 

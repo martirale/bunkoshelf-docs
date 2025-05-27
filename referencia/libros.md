@@ -1,5 +1,5 @@
 # Libros
 
 :::warning EN CONSTRUCCIÓN
-Característica disponible próximamente.
+Aún no implementado. Esta página es un marcador para documentación futura.
 :::

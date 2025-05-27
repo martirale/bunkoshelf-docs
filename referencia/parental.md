@@ -1,5 +1,5 @@
 # Control parental
 
 :::warning EN CONSTRUCCIÓN
-La documentación está en construcción por lo que de momento puede estar incompleta.
+Aún no implementado. Esta página es un marcador para documentación futura.
 :::

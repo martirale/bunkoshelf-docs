@@ -56,6 +56,7 @@ export default defineConfig({
         {
           text: "Referencia",
           items: [
+            { text: "Usuarios", link: "/guia/usuarios" },
             { text: "Bibliotecas", link: "/guia/bibliotecas" },
             { text: "Escáner", link: "/guia/escaner" },
           ],
@@ -84,6 +85,7 @@ export default defineConfig({
             { text: "Manga", link: "/referencia/manga" },
             { text: "Libros", link: "/referencia/libros" },
             { text: "Metadatos", link: "/referencia/metadatos" },
+            { text: "Progreso de lectura", link: "/referencia/progreso" },
           ],
         },
         {

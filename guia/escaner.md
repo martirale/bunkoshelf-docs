@@ -1,10 +1,10 @@
 # Escáner
 
-El escaneo es el proceso de indexar tu sistema de archivos para detectar nuevos archivos multimedia, cambios y/o actualizaciones. Los escaneos son esenciales para crear la biblioteca así como para mantenerla actualizada en Bunko Shelf. El escáner es un proceso en cola que se realiza en segundo plano tras iniciarse.
+El escaneo es el proceso de indexar tu sistema de archivos para detectar nuevos archivos multimedia, cambios y/o actualizaciones. Los escaneos son esenciales para crear la biblioteca así como para mantenerla actualizada en **Bunko Shelf**. El escáner es un proceso en cola que se realiza en segundo plano tras iniciarse.
 
 ## ¿Cómo funciona?
 
-Al iniciar un análisis, Bunko Shelf explorará tu sistema de archivos (el path establecido en tu [`compose.yml`](/guia/instalacion.md) durante la instalación) para detectar cualquier serie o volumen nuevo, actualizado o eliminado. Posteriormente, guardará estos cambios o adhesiones en la base de datos, que luego los pondrá a tu disposición en la interfaz de usuario.
+Al iniciar un análisis, **Bunko Shelf** explorará tu sistema de archivos (el path establecido en tu [`compose.yml`](/guia/instalacion.md) durante la instalación) para detectar cualquier serie o volumen nuevo, actualizado o eliminado. Posteriormente, guardará estos cambios o adhesiones en la base de datos, que luego los pondrá a tu disposición en la interfaz de usuario.
 
 1. ### Comprobación inicial
 

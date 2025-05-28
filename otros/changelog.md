@@ -2,7 +2,11 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.19.2 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+## v0.19.3 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+Borde en las alertas `toast` al hacer `hover`
 
 ### Cambiado
 

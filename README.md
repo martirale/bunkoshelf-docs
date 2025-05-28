@@ -2,13 +2,13 @@
 
 # Bunko Shelf
 
-<p><img title="Bunko Shelf Logo" src="/public/favicon.png" width="196" height="196"></p>
+<img title="Bunko Shelf Logo" src="/public/bunko-shelf-devices.webp">
 
 </div>
 
 ## Introducción
 
-**Bunko Shelf** es un servidor gratuito y auto-hospedado para organización y lectura de manga y libros digitales. Está completamente desarrollado con Next.js 15, SQLite y Prisma.
+**Bunko Shelf** es un servidor gratuito y auto-hospedado para organización y lectura de manga y libros digitales. Está completamente desarrollado con [Next.js 15](https://nextjs.org/), [SQLite](https://www.sqlite.org/) y [Prisma](https://www.prisma.io/).
 
 ## Docker Compose
 

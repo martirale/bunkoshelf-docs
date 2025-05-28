@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.19.0 <Badge type="info" text="2025-05-27" /> <Badge type="tip" text="Última" />
+## v0.19.1 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Orden de los volúmenes en la sección "Continúa la serie"
+
+## v0.19.0 <Badge type="info" text="2025-05-27" />
 
 ### Añadido
 

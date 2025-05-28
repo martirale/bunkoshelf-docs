@@ -35,6 +35,7 @@ export default defineConfig({
         text: currentVersion,
         items: [
           { text: "Registro de cambios", link: "/otros/changelog" },
+          { text: "Hoja de ruta", link: "/otros/roadmap" },
           { text: "Licencia", link: "/otros/licencia" },
         ],
       },
@@ -66,6 +67,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Registro de cambios", link: "/otros/changelog" },
+            { text: "Hoja de ruta", link: "/otros/roadmap" },
             { text: "Licencia", link: "/otros/licencia" },
           ],
         },
@@ -107,6 +109,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Registro de cambios", link: "/otros/changelog" },
+            { text: "Hoja de ruta", link: "/otros/roadmap" },
             { text: "Licencia", link: "/otros/licencia" },
           ],
         },

@@ -34,7 +34,7 @@ export default defineConfig({
       {
         text: currentVersion,
         items: [
-          { text: "Changelog", link: "/otros/changelog" },
+          { text: "Registro de cambios", link: "/otros/changelog" },
           { text: "Licencia", link: "/otros/licencia" },
         ],
       },

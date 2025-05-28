@@ -29,6 +29,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 
 ## 📝 Planeado
 
+- Listas de lectura y colecciones
 - Soporte para CBR, PDF y EPUB
 - Biblioteca para libros
 - Edición de metadatos en la aplicación

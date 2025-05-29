@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.19.5 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+## v0.19.6 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Huso horario en contador de último día leído
+
+## v0.19.5 <Badge type="info" text="2025-05-28" />
 
 ### Cambiado
 

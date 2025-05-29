@@ -2,7 +2,17 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.19.3 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+## v0.19.5 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+
+### Cambiado
+
+- Iconos de la página de favoritos
+
+### Corregido
+
+- Cálculo de racha diaria usando fechas normalizadas
+
+## v0.19.3 <Badge type="info" text="2025-05-28" />
 
 ### Añadido
 

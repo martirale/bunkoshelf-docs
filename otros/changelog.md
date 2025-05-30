@@ -2,7 +2,19 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.20.0 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+## v0.23.0 <Badge type="info" text="2025-05-29" /> <Badge type="tip" text="Última" />
+
+### Cambiado
+
+- Convertido `HomeRowHeroManga` de cliente a componente SSR
+- Distribución y color de las "stat tiles" en la página de perfil
+
+### Corregido
+
+- Lógica para mostrar solo el siguiente volumen sin leer en series iniciadas
+- Distribución vertical de filas en la página de inicio
+
+## v0.20.0 <Badge type="info" text="2025-05-28" />
 
 ### Cambiado
 

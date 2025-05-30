@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.20.0 <Badge type="info" text="2025-05-28" /> <Badge type="tip" text="Última" />
+## v0.21.0 <Badge type="info" text="2025-05-DD" /> <Badge type="tip" text="Última" />
+
+### Cambiado
+
+- Convertido `HomeRowHeroManga` de cliente a componente SSR
+
+## v0.20.0 <Badge type="info" text="2025-05-28" />
 
 ### Cambiado
 

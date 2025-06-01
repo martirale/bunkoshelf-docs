@@ -33,7 +33,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Soporte para CBR, PDF y EPUB
 - Biblioteca para libros
 - Edición de metadatos en la aplicación
-- Estadísticas con gráficos (me gustan los gráficos)
+- Estadísticas con gráficos comparativos
 - Instalador multiplataforma nativo
 - Modelo de aplicación SaaS
 

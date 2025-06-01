@@ -2,12 +2,14 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.24.2 <Badge type="info" text="2025-06-01" /> <Badge type="tip" text="Última" />
+## v0.24.4 <Badge type="info" text="2025-05-31" /> <Badge type="tip" text="Última" />
 
 ### Cambiado
 
 - Nombres de componentes de biblioteca y estadísticas de usuario
 - Color global "Heather" por "Dark Lilah"
+- Distribución de columnas en móvil y tablet del componente de estadísticas
+- Distribución de menús secundarios en móvil
 
 ## v0.24.0 <Badge type="info" text="2025-05-30" />
 

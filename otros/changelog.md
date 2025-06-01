@@ -2,7 +2,7 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.26.0 <Badge type="info" text="2025-06-DD" /> <Badge type="tip" text="Última" />
+## v0.27.0 <Badge type="info" text="2025-06-01" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 

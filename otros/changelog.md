@@ -2,11 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.24.6 <Badge type="info" text="2025-06-DD" /> <Badge type="tip" text="Última" />
+## v0.26.0 <Badge type="info" text="2025-06-DD" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
 - Enlaces a página de mangas y perfil desde página de inicio
+- Parseo de géneros y etiquetas como arreglo
+- Búsqueda por géneros y etiquetas
 
 ## v0.24.5 <Badge type="info" text="2025-06-01" />
 
@@ -16,7 +18,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ## v0.24.4 <Badge type="info" text="2025-05-31" />
 
-### Cambiado
+### Modificado
 
 - Nombres de componentes de biblioteca y estadísticas de usuario
 - Color global "Heather" por "Dark Lilah"
@@ -31,7 +33,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ## v0.23.0 <Badge type="info" text="2025-05-29" />
 
-### Cambiado
+### Modificado
 
 - Convertido `HomeRowHeroManga` de cliente a componente SSR
 - Distribución y color de las "stat tiles" en la página de perfil
@@ -43,7 +45,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ## v0.20.0 <Badge type="info" text="2025-05-28" />
 
-### Cambiado
+### Modificado
 
 - Rediseño completo de la página de inicio
 
@@ -55,7 +57,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ## v0.19.5 <Badge type="info" text="2025-05-28" />
 
-### Cambiado
+### Modificado
 
 - Iconos de la página de favoritos
 
@@ -69,7 +71,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 Borde en las alertas `toast` al hacer `hover`
 
-### Cambiado
+### Modificado
 
 - Peso del título en las alertas `toast`
 
@@ -113,7 +115,7 @@ Borde en las alertas `toast` al hacer `hover`
 
 - Series en los resultados de búsqueda
 
-### Cambiado
+### Modificado
 
 - Resultados de búsqueda ahora priorizan coincidencias por serie y luego por volúmenes
 - Tamaño de la fuente en `MangaCard` en `2xl:`
@@ -129,7 +131,7 @@ Borde en las alertas `toast` al hacer `hover`
 
 - Búsqueda integrada por título, autor o serie
 
-### Cambiado
+### Modificado
 
 - Favicon e iconos de PWA
 - Duración por defecto del toast provider
@@ -145,7 +147,7 @@ Borde en las alertas `toast` al hacer `hover`
 
 - Cookie de idioma automática
 
-### Cambiado
+### Modificado
 
 - Colores y márgenes del botón del menú móvil
 - Márgenes de controles e imágenes en el lector
@@ -188,7 +190,7 @@ Borde en las alertas `toast` al hacer `hover`
 - Indicador de nueva versión disponible
 - Alerta visual para nueva versión
 
-### Cambiado
+### Modificado
 
 - Refactorización completa del escáner de biblioteca
 
@@ -219,7 +221,7 @@ Borde en las alertas `toast` al hacer `hover`
 - Archivo `compose.yml` para instalación vía Docker Compose
 - Base de datos descargable
 
-### Cambiado
+### Modificado
 
 - Optimización del tamaño de la imagen Docker
 - Optimización de la lógica de componentes en biblioteca, perfil y ajustes
@@ -242,7 +244,7 @@ Borde en las alertas `toast` al hacer `hover`
 - Renderizado de metadatos desde base de datos al frontend
 - Nueva API para escaneo completo de biblioteca
 
-### Cambiado
+### Modificado
 
 - Reestructuración del directorio de componentes de biblioteca
 - Actualización de APIs de componentes del lado cliente
@@ -254,7 +256,7 @@ Borde en las alertas `toast` al hacer `hover`
 - Primer lector de manga funcional (soporte para archivos CBZ)
 - Nuevas traducciones
 
-### Cambiado
+### Modificado
 
 - Ajuste completo del layout de biblioteca en dispositivos móviles
 
@@ -273,7 +275,7 @@ Borde en las alertas `toast` al hacer `hover`
 - Extracción de portadas desde archivos CBZ
 - Página de favoritos con mapeo de series y volúmenes destacados
 
-### Cambiado
+### Modificado
 
 - Refactorización de componentes del servidor (de `fetch` a Prisma)
 

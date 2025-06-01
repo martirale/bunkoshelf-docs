@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.24.5 <Badge type="info" text="2025-06-01" /> <Badge type="tip" text="Última" />
+## v0.24.6 <Badge type="info" text="2025-06-DD" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Enlaces a página de mangas y perfil desde página de inicio
+
+## v0.24.5 <Badge type="info" text="2025-06-01" />
 
 ### Corregido
 

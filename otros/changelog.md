@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.24.4 <Badge type="info" text="2025-05-31" /> <Badge type="tip" text="Última" />
+## v0.24.5 <Badge type="info" text="2025-06-01" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Huso horario de todos los _tiles_ de estadísticas
+
+## v0.24.4 <Badge type="info" text="2025-05-31" />
 
 ### Cambiado
 

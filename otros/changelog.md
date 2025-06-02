@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.28.0 <Badge type="info" text="2025-06-01" /> <Badge type="tip" text="Última" />
+## v0.28.1 <Badge type="info" text="2025-06-02" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Eliminado el uso innecesario de `useMemo` en componentes de estadísticas
+
+## v0.28.0 <Badge type="info" text="2025-06-01" />
 
 ### Modificado
 

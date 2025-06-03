@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.29.0 <Badge type="info" text="2025-06-03" /> <Badge type="tip" text="Última" />
+## v0.29.1 <Badge type="info" text="2025-06-DD" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Componente `KeepReading` ahora se actualiza dinámicamente mediante CSR
+
+## v0.29.0 <Badge type="info" text="2025-06-03" />
 
 ### Modificado
 

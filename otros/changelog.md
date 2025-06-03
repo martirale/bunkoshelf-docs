@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.28.1 <Badge type="info" text="2025-06-02" /> <Badge type="tip" text="Última" />
+## v0.29.0 <Badge type="info" text="2025-06-03" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Refactor completo de estadísticas de lectura
+
+## v0.28.1 <Badge type="info" text="2025-06-02" />
 
 ### Corregido
 

@@ -2,7 +2,19 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.29.0 <Badge type="info" text="2025-06-03" /> <Badge type="tip" text="Última" />
+## v0.29.4 <Badge type="info" text="2025-06-03" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Fallback UI para `HeroKeepRead` sin progreso activo
+- Reemplazo de etiquetas textuales por iconos en resultados de búsqueda
+
+### Modificado
+
+- Componente `KeepReading` ahora se actualiza dinámicamente mediante CSR
+- Fondo decorativo `::before` del `body` movido a un `div` para evitar interferencias táctiles
+
+## v0.29.0 <Badge type="info" text="2025-06-03" />
 
 ### Modificado
 

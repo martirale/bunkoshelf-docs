@@ -2,12 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.29.7 <Badge type="info" text="2025-06-04" /> <Badge type="tip" text="Última" />
+## v0.29.8 <Badge type="info" text="2025-06-04" /> <Badge type="tip" text="Última" />
 
 ### Modificado
 
 - Orden de datos en el componente de estadísticas
 - Márgenes en el lector de manga
+- Refactor completo del `nav` principal y secundarios
 
 ## v0.29.5 <Badge type="info" text="2025-06-04" />
 

@@ -2,6 +2,12 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
+## v0.29.5 <Badge type="info" text="2025-06-04" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Márgenes reducidos en lector de manga
+
 ## v0.29.4 <Badge type="info" text="2025-06-03" /> <Badge type="tip" text="Última" />
 
 ### Añadido

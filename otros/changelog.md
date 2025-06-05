@@ -2,11 +2,16 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.30.1 <Badge type="info" text="2025-06-05" /> <Badge type="tip" text="Última" />
+## v0.31.0 <Badge type="info" text="2025-06-05" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Sección "Por leer" en página de biblioteca
 
 ### Modificado
 
 - Bordes en el componente `MangaCard`
+- Traducciones generales
 
 ## v0.30.0 <Badge type="info" text="2025-06-05" />
 

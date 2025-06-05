@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.30.0 <Badge type="info" text="2025-06-05" /> <Badge type="tip" text="Última" />
+## v0.30.1 <Badge type="info" text="2025-06-05" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Bordes en el componente `MangaCard`
+
+## v0.30.0 <Badge type="info" text="2025-06-05" />
 
 ### Añadido
 

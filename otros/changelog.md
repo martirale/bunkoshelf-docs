@@ -6,12 +6,12 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
-- Sección "Por leer" en página de biblioteca
+- Sección "Por leer" en la biblioteca de manga
+- Nuevas traducciones
 
 ### Modificado
 
 - Bordes en el componente `MangaCard`
-- Traducciones generales
 
 ## v0.30.0 <Badge type="info" text="2025-06-05" />
 

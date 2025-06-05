@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.29.9 <Badge type="info" text="2025-06-04" /> <Badge type="tip" text="Última" />
+## v0.30.0 <Badge type="info" text="2025-06-05" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Filtrado de volúmenes y series por géneros y etiquetas
+
+## v0.29.9 <Badge type="info" text="2025-06-04" />
 
 ### Modificado
 

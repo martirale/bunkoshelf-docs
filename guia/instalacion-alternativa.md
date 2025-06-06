@@ -4,11 +4,7 @@
 
 Un proxy inverso es un intermediario que recibe las solicitudes de los usuarios y las reenvía al servidor correspondiente, permitiendo gestionar conexiones, mejorar seguridad y habilitar funcionalidades como HTTPS. En nuestro caso, el proxy se usa principalmente para ofrecer acceso seguro mediante HTTPS a la aplicación, que requiere un certificado válido para el correcto manejo de la autenticación.
 
-Para esta instalación alternativa, usaremos un stack de Docker Compose que incluye una instancia de [Nginx Proxy Manager](https://nginxproxymanager.com/) para que puedas gestionar el certificado SSL y el acceso seguro a **Bunko Shelf.**
-
-:::warning DOMINIO NECESARIO
-El proxy inverso requiere de un dominio (o subdominio) real y válido para funcionar.
-:::
+Para esta instalación alternativa, usaremos un **stack de Docker Compose** que incluye una instancia de [Nginx Proxy Manager](https://nginxproxymanager.com/) para que puedas gestionar el certificado SSL y el acceso seguro a **Bunko Shelf.**
 
 ::: code-group
 
@@ -41,6 +37,10 @@ volumes:
   bunko_db:
 ```
 
+:::
+
+:::warning DOMINIO NECESARIO
+El proxy inverso requiere de un dominio (o subdominio) real y válido para funcionar.
 :::
 
 ### Iniciar el stack

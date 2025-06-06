@@ -2,15 +2,11 @@
 
 ## Docker Compose
 
-La imagen está publicada en [Docker Hub](https://hub.docker.com/r/itsmrtr/bunkoshelf) y puede ser desplegada en casi cualquier instancia Linux que tenga Docker instalado. En el caso de **Docker para Windows**, es posible levantarla, pero solo si se ejecuta en **modo WSL 2** o con una configuración adecuada para imágenes Linux.
-
-:::warning PROXY INVERSO NECESARIO
-**La aplicación requiere HTTPS para funcionar, lo que implica usar un proxy inverso con certificado válido.** Si no cuentas con un proxy, puedes optar por la [instalación alternativa](/guia/instalacion-alternativa.md).
-:::
+La imagen está publicada en [Docker Hub](https://hub.docker.com/r/itsmrtr/bunkoshelf) y puede ser desplegada en casi cualquier instancia Linux que tenga Docker instalado. En el caso de **Docker para Windows**, es posible levantarla, pero solo si se ejecuta en **modo WSL 2** o con una configuración adecuada para imágenes Linux. Para la instalación necesitaremos crear nuestro `compose.yml`, o en su defecto, un stack en **Portainer**:
 
 ::: code-group
 
-```yaml [compose.yml]
+```yaml [Estable]
 services:
   bunkoshelf:
     image: itsmrtr/bunkoshelf:latest
@@ -27,6 +23,27 @@ volumes:
   bunko_db:
 ```
 
+```yaml [Desarrollo]
+services:
+  bunkoshelf:
+    image: itsmrtr/bunkoshelf:nightly
+    container_name: bunkoshelf-dev
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - bunko_db:/app/prisma/data
+      - /path/to/your/library/manga:/library/manga
+      - ./public/covers:/app/public/covers
+
+volumes:
+  bunko_db:
+```
+
+:::
+
+:::warning PROXY INVERSO NECESARIO
+**La aplicación requiere HTTPS para funcionar, lo que implica usar un proxy inverso con certificado válido.** Si no cuentas con un proxy, puedes optar por la [instalación alternativa](/guia/instalacion-alternativa.md).
 :::
 
 ### Iniciar el contenedor
@@ -58,7 +75,9 @@ docker compose up -d
 
 Si prefieres la línea de comandos, puedes desplegar el contenedor vía `Docker CLI`:
 
-```bash
+::: code-group
+
+```bash [Estable]
 docker run -d \
   --name bunkoshelf \
   --restart unless-stopped \
@@ -68,6 +87,19 @@ docker run -d \
   -v $(pwd)/public/covers:/app/public/covers \
   itsmrtr/bunkoshelf:latest
 ```
+
+```bash [Desarrollo]
+docker run -d \
+  --name bunkoshelf-dev \
+  --restart unless-stopped \
+  -p 3000:3000 \
+  -v bunko_db:/app/prisma/data \
+  -v /path/to/your/library/manga:/library/manga \
+  -v $(pwd)/public/covers:/app/public/covers \
+  itsmrtr/bunkoshelf:nightly
+```
+
+:::
 
 ## Monitoreo
 

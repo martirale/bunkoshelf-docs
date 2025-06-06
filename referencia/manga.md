@@ -10,11 +10,11 @@
 
 La siguiente tabla describe los formatos admitidos para mangas en **Bunko Shelf**:
 
-| Formato     | Extensión(es) | Básico | Transmisión | Notas         |
-| ----------- | ------------- | ------ | ----------- | ------------- |
-| Archivo ZIP | `.cbz`        | ✅     | ✅          |               |
-| Archivo RAR | `.cbr`        | ❌     | ❌          | Próximamente. |
-| PDF         | `.pdf`        | ❌     | ❌          | Próximamente. |
+| Formato     | Extensión(es) | Básico | Streaming | Notas        |
+| ----------- | ------------- | ------ | --------- | ------------ |
+| Archivo ZIP | `.cbz`        | ✅     | ✅        |              |
+| Archivo RAR | `.cbr`        | ❌     | ❌        | Próximamente |
+| PDF         | `.pdf`        | ❌     | ❌        | Próximamente |
 
 #### Básico
 
@@ -24,9 +24,9 @@ El soporte básico engloba la funcionalidad mínima viable para un formato deter
 - Extracción de metadatos
 - Servicio de archivos
 
-#### Transmisión
+#### Streaming
 
-La "compatibilidad con la transmisión" en **Bunko Shelf** significa que las páginas de un manga se sirven como archivos de imagen individuales accesibles mediante URLs específicas, permitiendo al cliente cargar solo las páginas que necesita visualizar en cada momento. El backend descomprime el volumen completo inicialmente en un directorio temporal y expone cada página como un recurso separado, por lo que no se envía el volumen completo de una sola vez, sino que el cliente descarga cada página de forma individual bajo demanda.
+La "compatibilidad con streaming" en **Bunko Shelf** significa que las páginas de un manga se sirven como archivos de imagen individuales accesibles mediante URLs específicas, permitiendo al cliente cargar solo las páginas que necesita visualizar en cada momento. El backend descomprime el volumen completo inicialmente en un directorio temporal y expone cada página como un recurso separado, por lo que no se envía el volumen completo de una sola vez, sino que el cliente descarga cada página de forma individual bajo demanda.
 
 ## Formatos de imagen
 
@@ -53,8 +53,8 @@ Esta estructura permite al sistema procesar correctamente los volúmenes, detect
 ### Ejemplo de CBZ/CBR básico
 
 ```
-Volume Name.cbz/
-├── 001.png (cover art)
+Nombre Volumen.cbz/
+├── 001.png (portada)
 ├── 002.png
 ├── 003.png
 ├── [...]
@@ -66,17 +66,17 @@ Volume Name.cbz/
 ### Ejemplo de CBZ/CBR ordenado por capítulos
 
 ```
-Volume Name.cbz/
-├── Chapter 1/
-│   ├── 001.png (cover art)
+Nombre Volumen.cbz/
+├── Capítulo 1/
+│   ├── 001.png (portada)
 │   ├── 002.png
 │   ├── 003.png
 │   └── [...]
-├── Chapter 2/
+├── Capítulo 2/
 │   ├── 001.png
 │   ├── 002.png
 │   ├── 003.png
 │   └── [...]
-├── Chapter 3 [...]
+├── Capítulo 3 [...]
 └── ComicInfo.xml
 ```

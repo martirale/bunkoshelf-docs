@@ -20,12 +20,16 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Interfaz de usuario bilingüe completa
 - Buscador integrado (volúmenes y series)
 - Estadísticas de usuario
+- Página de inicio funcional
+- Filtro dinámico por géneros y etiquetas (volúmenes y series)
 
 ## 🚧 En desarrollo
 
-- Página de inicio funcional
+- Reto de lectura por año
 
 ## 🧪 En beta
+
+- Racha de lectura
 
 ## 📝 Planeado
 

@@ -42,12 +42,12 @@ Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los fic
     <Tags></Tags>
 
     <!-- Detalles de publicación -->
-    <Year>YYYY</Year>
-    <Month>MM</Month>
-    <Day>DD</Day>
+    <Year></Year>
+    <Month></Month>
+    <Day></Day>
 
     <!-- Información de identificación -->
-    <Count>1</Count>
+    <Count></Count>
     <GTIN></GTIN>
 
     <!-- Dirección de lectura -->

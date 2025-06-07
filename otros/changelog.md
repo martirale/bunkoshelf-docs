@@ -2,12 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.32.2 <Badge type="info" text="2025-06-07" /> <Badge type="tip" text="Última" />
+## v0.32.3 <Badge type="info" text="2025-06-07" /> <Badge type="tip" text="Última" />
 
 ### Corregido
 
 - Lógica de filtrado por géneros y etiquetas para soportar múltiples valores simultáneamente
 - Posición y ancho de las notificaciones toast
+- Actualización de toast persistentes sin afectar otros toast
 
 ## v0.32.0 <Badge type="info" text="2025-06-06" />
 

@@ -45,6 +45,9 @@ volumes:
 :::warning PROXY INVERSO NECESARIO
 **La aplicación requiere HTTPS para funcionar, lo que implica usar un proxy inverso con certificado válido.** Si no cuentas con un proxy, puedes optar por la [instalación alternativa](/guia/instalacion-alternativa.md).
 :::
+:::warning VERSIÓN DE DESARROLLO
+Si decides instalar la versión `nightly` (desarrollo), ten en cuenta que puede ser inestable, contener errores o incluir funciones incompletas. Úsala bajo tu propio riesgo.
+:::
 
 ### Iniciar el contenedor
 

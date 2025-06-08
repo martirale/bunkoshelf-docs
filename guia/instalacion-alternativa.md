@@ -61,8 +61,8 @@ docker compose up -d
 
 | Ruta                          | Tipo       | Descripción                                                                                    |
 | ----------------------------- | ---------- | ---------------------------------------------------------------------------------------------- |
-| `./data`                      | Volumen    | Persistencia de datos de Nginx Proxy Manager. **No modificar**.                                |
-| `./letsencrypt`               | Volumen    | Persistencia de datos de Let's Encrypt. **No modificar**.                                      |
+| `./data`                      | Directorio | Persistencia de datos de Nginx Proxy Manager. **No modificar**.                                |
+| `./letsencrypt`               | Directorio | Persistencia de datos de Let's Encrypt. **No modificar**.                                      |
 | `./bunko_db`                  | Directorio | Persistencia de la base de datos. **No modificar**.                                            |
 | `./public/covers`             | Directorio | Portadas extraídas de los mangas durante el escaneo de la biblioteca. **No modificar**.        |
 | `/path/to/your/library/manga` | Montaje    | **Ruta real de la biblioteca en el host.** Debe ser una ruta válida en el sistema de archivos. |

@@ -2,7 +2,15 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.32.3 <Badge type="info" text="2025-06-07" /> <Badge type="tip" text="Última" />
+## v0.32.6 <Badge type="info" text="2025-06-08" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Lógica del menú desplegable en el `MainNav`
+- Color del badge "Age Rating" `18+`
+- Márgenes entre botones y meta tags en páginas de series y volúmenes
+
+## v0.32.3 <Badge type="info" text="2025-06-07" />
 
 ### Corregido
 

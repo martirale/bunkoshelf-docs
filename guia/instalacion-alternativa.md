@@ -26,8 +26,8 @@ services:
     image: itsmrtr/bunkoshelf:latest
     container_name: bunkoshelf
     restart: unless-stopped
-    expose:
-      - "3000"
+    ports:
+      - "3000:3000"
     volumes:
       - ./bunko_db:/app/prisma/data
       - ./public/covers:/app/public/covers

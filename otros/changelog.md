@@ -2,11 +2,12 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.33.0 <Badge type="info" text="2025-06-08" /> <Badge type="tip" text="Última" />
+## v0.34.0 <Badge type="info" text="2025-06-08" /> <Badge type="tip" text="Última" />
 
 ### Añadido
 
 - Enlaces filtrados por género y etiquetas en páginas de series y volúmenes
+- Soporte para HTTPS local mediante proxy con certificados autofirmados
 
 ### Corregido
 

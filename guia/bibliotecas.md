@@ -11,12 +11,12 @@ Aunque las series y los oneshots comparten la misma estructura de carpetas, su t
 ```
 library/
 └── manga/
-    ├── Series Name/
-    │   ├── Series Name 1.cbz
-    │   ├── Series Name 2.cbz
-    │   └── Series Name 3.cbz
-    └── Volume Name [oneshot]/
-        └── Volume Name.cbz
+    ├── Nombre Serie/
+    │   ├── Nombre Serie 1.cbz
+    │   ├── Nombre Serie 2.cbz
+    │   └── Nombre Serie 3.cbz
+    └── Nombre Volumen [oneshot]/
+        └── Nombre Volumen.cbz
 ```
 
 - `library/manga` representa el directorio raíz de tu biblioteca.

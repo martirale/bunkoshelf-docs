@@ -22,6 +22,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Estadísticas de usuario
 - Página de inicio funcional
 - Filtro dinámico por géneros y etiquetas (volúmenes y series)
+- Soporte para HTTPS local
 
 ## 🚧 En desarrollo
 

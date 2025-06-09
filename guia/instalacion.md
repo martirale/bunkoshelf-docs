@@ -19,7 +19,7 @@ services:
     volumes:
       - ./bunko_db:/app/prisma/data
       - ./public/covers:/app/public/covers
-      - /local-2tb/media/books/Mangas:/library/manga
+      - /path/to/your/library/manga:/library/manga
 ```
 
 :::
@@ -41,7 +41,7 @@ services:
     volumes:
       - ./bunko_db:/app/prisma/data
       - ./public/covers:/app/public/covers
-      - /local-2tb/media/books/Mangas:/library/manga
+      - /path/to/your/library/manga:/library/manga
 ```
 
 ```yaml [Desarrollo]
@@ -55,7 +55,7 @@ services:
     volumes:
       - ./bunko_db:/app/prisma/data
       - ./public/covers:/app/public/covers
-      - /local-2tb/media/books/Mangas:/library/manga
+      - /path/to/your/library/manga:/library/manga
 ```
 
 :::

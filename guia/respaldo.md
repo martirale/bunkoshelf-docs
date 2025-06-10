@@ -1,5 +1,5 @@
 # Respaldo
 
-:::warning AÚN NO IMPLEMENTADO
-Esta página es un marcador para documentación futura.
+:::warning EN CONSTRUCCIÓN
+La documentación está en construcción por lo que de momento puede estar incompleta.
 :::

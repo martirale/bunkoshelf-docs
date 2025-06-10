@@ -56,6 +56,7 @@ export default defineConfig({
             { text: "Usuarios", link: "/guia/usuarios" },
             { text: "Bibliotecas", link: "/guia/bibliotecas" },
             { text: "Escáner", link: "/guia/escaner" },
+            { text: "Respaldo", link: "/guia/respaldo" },
           ],
         },
         {

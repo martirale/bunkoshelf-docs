@@ -6,4 +6,4 @@
 
 ---
 
-\*_Las imágenes de las portadas son utilizadas con fines ilustrativos. Los derechos de autor pertenecen a sus respectivos autores."_
+\*_Las imágenes de las portadas son utilizadas con fines ilustrativos. Los derechos de autor pertenecen a sus respectivos autores._

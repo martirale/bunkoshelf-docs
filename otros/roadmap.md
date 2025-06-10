@@ -23,10 +23,12 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Página de inicio funcional
 - Filtro dinámico por géneros y etiquetas (volúmenes y series)
 - Soporte para HTTPS local
+- Reto de lectura por año
 
 ## 🚧 En desarrollo
 
-- Reto de lectura por año
+- Estadísticas con gráficos comparativos
+- Página de perfil para usuario
 
 ## 🧪 En beta
 

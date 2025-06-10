@@ -15,18 +15,15 @@
 ```yaml
 services:
   bunkoshelf:
-    image: itsmrtr/bunkoshelf:latest
+    image: itsmrtr/bunkoshelf:new
     container_name: bunkoshelf
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "3443:443"
     volumes:
-      - bunko_db:/app/prisma/data
-      - /path/to/your/library/manga:/library/manga
+      - ./bunko_db:/app/prisma/data
       - ./public/covers:/app/public/covers
-
-volumes:
-  bunko_db:
+      - /path/to/your/library/manga:/library/manga
 ```
 
 ## Docker CLI
@@ -35,11 +32,11 @@ volumes:
 docker run -d \
   --name bunkoshelf \
   --restart unless-stopped \
-  -p 3000:3000 \
-  -v bunko_db:/app/prisma/data \
-  -v /path/to/your/library/manga:/library/manga \
+  -p 3443:443 \
+  -v $(pwd)/bunko_db:/app/prisma/data \
   -v $(pwd)/public/covers:/app/public/covers \
-  itsmrtr/bunkoshelf:latest
+  -v /path/to/your/library/manga:/library/manga \
+  itsmrtr/bunkoshelf:new
 ```
 
 <br>

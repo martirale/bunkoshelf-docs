@@ -2,7 +2,11 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.35.5 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
+## v0.36.0 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Progreso del desafío de lectura en el `sidebar` principal
 
 ### Modificado
 

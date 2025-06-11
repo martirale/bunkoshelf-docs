@@ -2,11 +2,12 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.35.3 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
+## v0.35.4 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
 
 ### Modificado
 
-- Colores de la paleta cromática (se reemplazó `zinc` por `neutral`)
+- Colores de la paleta cromática (`neutral` por `zinc`)
+- Color de bordes en `MainNav` móvil (`stone` por `sand`)
 - Hover de botones en `FooterNav` y `ReadingChallenge`
 
 ### Corregido

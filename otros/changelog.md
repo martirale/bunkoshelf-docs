@@ -6,7 +6,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ### Corregido
 
-- Lógica de conteo en racha de lectura
+- Lógica de conteo en racha de lectura y modelo en la base de datos
 
 ## v0.37.0 <Badge type="info" text="2025-06-11" />
 

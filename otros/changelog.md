@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.38.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+## v0.38.1 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Ruta base en la paginación
+
+## v0.38.0 <Badge type="info" text="2025-06-11" />
 
 ### Modificado
 

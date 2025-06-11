@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.37.1 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+## v0.38.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Refactor completo al componente `ChallengeProg.jsx` de `CSR` a `SSR`
+
+## v0.37.1 <Badge type="info" text="2025-06-11" />
 
 ### Corregido
 

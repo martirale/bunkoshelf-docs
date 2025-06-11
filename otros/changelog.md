@@ -2,7 +2,24 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.35.0 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
+## v0.36.0 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Progreso del desafío de lectura en el `sidebar` principal
+
+### Modificado
+
+- Colores de la paleta cromática (`neutral` por `zinc`)
+- Color de bordes en `MainNav` móvil (`stone` por `sand`)
+- Hover de botones en `FooterNav` y `ReadingChallenge`
+- Organización de todos los componentes
+
+### Corregido
+
+- Cálculo de días de lectura en la racha de lectura
+
+## v0.35.0 <Badge type="info" text="2025-06-10" />
 
 ### Añadido
 

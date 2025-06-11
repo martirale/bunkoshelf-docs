@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.37.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+## v0.37.1 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Lógica de conteo en racha de lectura y modelo en la base de datos
+
+## v0.37.0 <Badge type="info" text="2025-06-11" />
 
 ### Añadido
 

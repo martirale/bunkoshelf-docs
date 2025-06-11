@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.36.0 <Badge type="info" text="2025-06-10" /> <Badge type="tip" text="Última" />
+## v0.37.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Soporte para el modelo `DailyReadingLog` para mejorar el seguimiento de la lectura
+
+## v0.36.0 <Badge type="info" text="2025-06-10" />
 
 ### Añadido
 

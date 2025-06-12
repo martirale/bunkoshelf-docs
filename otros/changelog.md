@@ -2,7 +2,17 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.39.2 <Badge type="info" text="2025-06-12" /> <Badge type="tip" text="Última" />
+## v0.40.0 <Badge type="info" text="2025-06-12" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Botón de recarga de página manual en página de inicio
+
+### Modificado
+
+- Espera en recarga de página automática después de escanear
+
+## v0.39.2 <Badge type="info" text="2025-06-12" />
 
 ### Corregido
 

@@ -2,7 +2,14 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.39.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+## v0.39.2 <Badge type="info" text="2025-06-12" /> <Badge type="tip" text="Última" />
+
+### Corregido
+
+- Zona horaria en el registro de actividad de lectura diaria
+- Posicionamiento (fijo) de sidebar secundario en `/profile` y `/settings`
+
+## v0.39.0 <Badge type="info" text="2025-06-11" />
 
 ### Añadido
 

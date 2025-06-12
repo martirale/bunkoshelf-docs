@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.40.0 <Badge type="info" text="2025-06-12" /> <Badge type="tip" text="Última" />
+## v0.41.0 <Badge type="info" text="2025-06-12" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Contador de series, volúmenes totales y sin leer en página de biblioteca
+
+## v0.40.0 <Badge type="info" text="2025-06-12" />
 
 ### Añadido
 

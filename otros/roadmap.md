@@ -28,7 +28,6 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 
 ## 🚧 En desarrollo
 
-- Estadísticas con gráficos comparativos
 - Página de perfil para usuario
 
 ## 🧪 En beta

@@ -20,10 +20,9 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Interfaz de usuario bilingüe completa
 - Buscador integrado (volúmenes y series)
 - Estadísticas de usuario
+- Página de inicio funcional
 
 ## 🚧 En desarrollo
-
-- Página de inicio funcional
 
 ## 🧪 En beta
 

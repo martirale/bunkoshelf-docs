@@ -2,7 +2,22 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.38.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+## v0.39.0 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Tile de mangas leídos ahora muestra el total de volúmenes disponibles
+- Avatar en el perfil de usuario
+
+### Modificado
+
+- Layout responsivo de la página de perfil
+
+### Corregido
+
+- Ruta base en la paginación
+
+## v0.38.0 <Badge type="info" text="2025-06-11" />
 
 ### Modificado
 

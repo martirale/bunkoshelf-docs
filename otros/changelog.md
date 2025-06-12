@@ -2,7 +2,11 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.38.1 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+## v0.38.2 <Badge type="info" text="2025-06-11" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Layout responsivo de la página de perfil
 
 ### Corregido
 

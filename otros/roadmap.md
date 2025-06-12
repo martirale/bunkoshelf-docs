@@ -24,6 +24,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Filtro dinámico por géneros y etiquetas (volúmenes y series)
 - Soporte para HTTPS local
 - Reto de lectura por año
+- Racha de lectura
 
 ## 🚧 En desarrollo
 
@@ -31,8 +32,6 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Página de perfil para usuario
 
 ## 🧪 En beta
-
-- Racha de lectura
 
 ## 📝 Planeado
 
@@ -43,6 +42,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Estadísticas con gráficos comparativos
 - Instalador multiplataforma nativo
 - Modelo de aplicación SaaS
+- Notificaciones Push
 
 ## Actualizaciones
 

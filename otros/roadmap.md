@@ -29,6 +29,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 ## 🚧 En desarrollo
 
 - Página de perfil para usuario
+- Notificaciones push
 
 ## 🧪 En beta
 
@@ -41,7 +42,6 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Estadísticas con gráficos comparativos
 - Instalador multiplataforma nativo
 - Modelo de aplicación SaaS
-- Notificaciones Push
 - Lectura conjunta y club de lectura
 
 ## Actualizaciones

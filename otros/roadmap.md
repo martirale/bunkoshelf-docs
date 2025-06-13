@@ -29,7 +29,6 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 ## 🚧 En desarrollo
 
 - Página de perfil para usuario
-- Respuesta háptica en dispositivos móviles
 
 ## 🧪 En beta
 

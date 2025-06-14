@@ -7,7 +7,6 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 ### Añadido
 
 - Notificación web push tras completar correctamente un escaneo
-- Notificación diaria si no se ha leído ese día (racha de lectura)
 
 ## v0.42.0 <Badge type="info" text="2025-06-13" />
 

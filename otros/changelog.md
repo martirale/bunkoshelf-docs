@@ -2,7 +2,14 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.42.0 <Badge type="info" text="2025-06-13" /> <Badge type="tip" text="Última" />
+## v0.43.0 <Badge type="info" text="2025-06-13" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Notificación web push tras completar correctamente un escaneo
+- Notificación diaria si no se ha leído ese día (racha de lectura)
+
+## v0.42.0 <Badge type="info" text="2025-06-13" />
 
 ### Añadido
 

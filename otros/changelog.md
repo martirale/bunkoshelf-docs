@@ -2,7 +2,17 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.44.0 <Badge type="info" text="2025-06-14" /> <Badge type="tip" text="Última" />
+## v0.45.0 <Badge type="info" text="2025-06-14" /> <Badge type="tip" text="Última" />
+
+### Modificado
+
+- Relaciones `onDelete` en modelos de relación intermedios
+
+### Corregido
+
+- Eliminación de volúmenes y series de la base de datos
+
+## v0.44.0 <Badge type="info" text="2025-06-14" />
 
 ### Añadido
 

@@ -2,7 +2,13 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.41.0 <Badge type="info" text="2025-06-12" /> <Badge type="tip" text="Última" />
+## v0.42.0 <Badge type="info" text="2025-06-13" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Sistema de notificaciones web push
+
+## v0.41.0 <Badge type="info" text="2025-06-12" />
 
 ### Añadido
 

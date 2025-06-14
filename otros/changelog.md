@@ -2,7 +2,14 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.43.0 <Badge type="info" text="2025-06-13" /> <Badge type="tip" text="Última" />
+## v0.44.0 <Badge type="info" text="2025-06-14" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Persistencia en base de datos de las suscripciones push
+- `console.log` en las diferentes etapas del escaneo de biblioteca
+
+## v0.43.0 <Badge type="info" text="2025-06-13" />
 
 ### Añadido
 

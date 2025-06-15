@@ -2,17 +2,50 @@
 
 Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
-## v0.45.0 <Badge type="info" text="2025-06-14" /> <Badge type="tip" text="Última" />
+## v0.48.0 <Badge type="info" text="2025-06-15" /> <Badge type="tip" text="Última" />
+
+### Añadido
+
+- Gráfico radial con géneros más leídos
 
 ### Modificado
 
-- Relaciones `onDelete` en modelos de relación intermedios
+- Ancho y alto del gráfico de barras con lecturas mensuales
+
+## v0.47.0 <Badge type="info" text="2025-06-14" />
+
+:::warning
+Esta actualización modifica la base de datos.
+:::
+
+### Añadido
+
+- Registro de primera lectura en modelo `UserToVolume`
+- Gráfico de barras con lecturas mensuales
+
+### Modificado
+
+- Fuente de datos para conteo de mangas mensual y comparación entre mes actual y anterior
+
+## v0.45.0 <Badge type="info" text="2025-06-14" />
+
+:::warning
+Esta actualización modifica la base de datos.
+:::
+
+### Modificado
+
+- Eliminación (`onDelete: cascade`) en modelos de relación intermedios
 
 ### Corregido
 
 - Eliminación de volúmenes y series de la base de datos
 
 ## v0.44.0 <Badge type="info" text="2025-06-14" />
+
+:::warning
+Esta actualización modifica la base de datos.
+:::
 
 ### Añadido
 
@@ -77,11 +110,19 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ## v0.37.1 <Badge type="info" text="2025-06-11" />
 
+:::warning
+Esta actualización modifica la base de datos.
+:::
+
 ### Corregido
 
 - Lógica de conteo en racha de lectura y modelo en la base de datos
 
 ## v0.37.0 <Badge type="info" text="2025-06-11" />
+
+:::warning
+Esta actualización modifica la base de datos.
+:::
 
 ### Añadido
 
@@ -408,6 +449,10 @@ Borde en las alertas `toast` al hacer `hover`
 
 ## v0.6.0-beta <Badge type="info" text="2025-05-19" />
 
+:::warning
+Esta actualización modifica la base de datos.
+:::
+
 ### Añadido
 
 - Guardado de progreso de lectura en local (lectura en tiempo real)
@@ -470,6 +515,10 @@ Borde en las alertas `toast` al hacer `hover`
 - Carga de fuentes personalizadas en clases utilitarias de Tailwind
 
 ## v0.2.0-alpha <Badge type="info" text="2025-05-13" />
+
+:::warning
+Esta actualización modifica la base de datos.
+:::
 
 ### Añadido
 

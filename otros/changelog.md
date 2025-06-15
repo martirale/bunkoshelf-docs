@@ -6,7 +6,7 @@ Todas las versiones siguen [SemVer](https://semver.org/lang/es/).
 
 ### Añadido
 
--
+- Gráfico radial con géneros más leídos
 
 ### Modificado
 

@@ -24,7 +24,7 @@ Las siguientes funcionalidades son exclusivas del usuario **administrador**.
    - **Usuario:** El nombre de usuario del usuario. Se utiliza para iniciar sesión en el servidor.
    - **Contraseña:** La contraseña del usuario. Se utiliza para iniciar sesión en el servidor.
    - **Nombre y apellido:** Campos opcionales para personalización del usuario.
-   - **Año de nacimiento:** Campo opcional. Necesario en caso de aplicar [control parental](/referencia/parental.md).
+   - **Año de nacimiento:** Campo opcional. Necesario en caso de aplicar [control parental](/referencia/control-parental.md).
    - **Privilegios de admin:** Determina si el usuario será administrador o usuario normal.
 4. Finalmente hacemos clic en el botón `Crear usuario` y habremos terminado.
 

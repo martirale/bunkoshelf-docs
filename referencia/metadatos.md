@@ -105,5 +105,5 @@ Los campos para género (`<Genre>`) y etiquetas (`<Tags>`) deben rellenarse en m
 :::
 
 ::: info AGE RATING
-Para más información de los valores soportados para `<AgeRating>`, por favor revisa la guía de referencia: [Control Parental](/referencia/parental.md).
+Para más información de los valores soportados para `<AgeRating>`, por favor revisa la guía de referencia: [Control Parental](/referencia/control-parental.md).
 :::

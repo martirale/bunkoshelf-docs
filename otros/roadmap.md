@@ -29,6 +29,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 ## 🚧 En desarrollo
 
 - Página de perfil para usuario
+- Estadísticas con gráficos comparativos
 
 ## 🧪 En beta
 
@@ -40,9 +41,7 @@ Para ver los avances más recientes, puedes consultar el [registro de cambios](/
 - Soporte para CBR, PDF y EPUB
 - Biblioteca para libros
 - Edición de metadatos en la aplicación
-- Estadísticas con gráficos comparativos
 - Instalador multiplataforma nativo
-- Modelo de aplicación SaaS
 - Lectura conjunta y club de lectura
 
 ## Actualizaciones

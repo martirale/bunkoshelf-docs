@@ -33,20 +33,20 @@ La "compatibilidad con streaming" en **Bunko Shelf** significa que las páginas 
 **Bunko Shelf** busca ofrecer un soporte amplio para imágenes en los mangas. Actualmente los siguientes formatos de imagen son compatibles directamente:
 
 - JPEG
-- [PNG](https://caniuse.com/?search=png)
-- [WebP](https://caniuse.com/?search=webp)
-- [GIF](https://caniuse.com/?search=gif)
+- PNG
+- WebP
+- GIF
 
-Asegúrate de que tu navegador admita el formato que planeas usar. Puedes visitar las URL con hipervínculos para comprobarlo. Si usas navegadores modernos como Google Chrome, Microsoft Edge o Apple Safari, no deberías experimentar ningún tipo de incompatibilidad.
+Asegúrate de que tu navegador admita el formato que planeas usar. Si usas navegadores modernos como Google Chrome, Microsoft Edge o Apple Safari, no deberías experimentar ningún tipo de incompatibilidad.
 
 ## Estructura esperada
 
-Para garantizar una correcta lectura y escaneo del contenido, los archivos `.cbz/.cbr` deben seguir esta estructura:
+Para garantizar una correcta lectura y escaneo del contenido, los archivos `CBZ/CBR` deben seguir esta estructura:
 
 1. **Imágenes ordenadas secuencialmente:** Los archivos de imagen (JPG, PNG, etc.) deben tener nombres que reflejen su orden de lectura (`001.jpg`, `002.jpg`, `003.jpg`, etc).
 2. **Portada:** La primera imagen será tratada como la portada del volumen.
-3. **Organización opcional por capítulos:** Se permite un único nivel de carpetas dentro del CBZ para separar capítulos, por ejemplo: `/Capítulo 1/001.jpg`, `/Capítulo 2/001.jpg`, `/Capítulo 3/001.jpg`, etc.
-4. **Metadatos:** El archivo `ComicInfo.xml` debe estar ubicado en la raíz del archivo CBZ.
+3. **Organización opcional por capítulos:** Se permite un único nivel de carpetas dentro del volumen para separar capítulos, por ejemplo: `/Capítulo 1/001.jpg`, `/Capítulo 2/001.jpg`, `/Capítulo 3/001.jpg`, etc.
+4. **Metadatos:** El archivo `ComicInfo.xml` debe estar ubicado en la raíz del volumen.
 
 Esta estructura permite al sistema procesar correctamente los volúmenes, detectar la portada y extraer metadatos. Si utilizas la organización por capítulos, no se permiten subcarpetas dentro de estas carpetas.
 

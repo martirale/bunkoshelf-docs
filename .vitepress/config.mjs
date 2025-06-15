@@ -85,11 +85,14 @@ export default defineConfig({
             { text: "Libros", link: "/referencia/libros" },
             { text: "Metadatos", link: "/referencia/metadatos" },
             { text: "Progreso de lectura", link: "/referencia/progreso" },
+            { text: "Lectura conjunta", link: "/referencia/lectura-conjunta" },
           ],
         },
         {
           text: "Control de acceso",
-          items: [{ text: "Control parental", link: "/referencia/parental" }],
+          items: [
+            { text: "Control parental", link: "/referencia/control-parental" },
+          ],
         },
       ],
 

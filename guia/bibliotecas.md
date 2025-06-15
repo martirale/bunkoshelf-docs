@@ -19,7 +19,7 @@ library/
         └── Nombre Volumen.cbz
 ```
 
-- `library/manga` representa el directorio raíz de tu biblioteca.
+- `/library/manga` representa el directorio raíz de tu biblioteca.
 - Cada subcarpeta corresponde a una serie o un oneshot.
 - Dentro de cada carpeta, se esperan archivos `CBZ`, uno por volumen.
 - Para que un título sea tratado como "oneshot", el nombre de su carpeta debe incluir el sufijo `[oneshot]` tal cual se muestra.
@@ -27,5 +27,5 @@ library/
 Este formato permite que el escáner de la aplicación identifique correctamente y procese de forma distinta las series y los volúmenes únicos.
 
 ::: info NOTA
-Los nombres `library/` y `manga/` son solo una convención. Puedes nombrarlos libremente, siempre que los directorios internos respeten la estructura descrita.
+Los nombres `/library` y `/manga` son solo una convención. Puedes nombrarlos libremente, siempre que los directorios internos respeten la estructura descrita.
 :::

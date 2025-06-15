@@ -8,11 +8,11 @@ A continuación, se describen las fuentes de metadatos compatibles por cada form
 
 ### CBZ/CBR
 
-Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los ficheros de tipo CBZ y CBR en caso de existir. Actualmente, **Bunko Shelf** puede detectar los metadatos de la siguiente plantilla XML (que puedes utilizar para añadir y/o adaptar los metadatos de tus mangas):
+Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los ficheros de tipo CBZ y CBR en caso de existir. Actualmente, **Bunko Shelf** puede detectar los metadatos de la siguiente plantilla XML (que puedes utilizar para añadir y/o adaptar los metadatos de tus mangas). Para el "Ejemplo", los metadatos del volumen 1 de 37 del manga: **Komi-San Wa Komyushou Desu**.
 
 ::: code-group
 
-```xml [ComicInfo.xml]
+```xml [ComicInfo.xml (plantilla)]
 <?xml version="1.0" encoding="utf-8"?>
 <ComicInfo>
     <!-- Título de la serie y volumen -->
@@ -55,15 +55,7 @@ Los metadatos se extraen de un fichero llamado `ComicInfo.xml` dentro de los fic
 </ComicInfo>
 ```
 
-:::
-
-### Ejemplo con datos reales
-
-Para el ejemplo, un `ComicInfo.xml` con los metadatos del volumen 1 de 37 del manga: **Komi-San Wa Komyushou Desu**.
-
-::: code-group
-
-```xml [ComicInfo.xml]
+```xml [Ejemplo (Komi-San)]
 <?xml version="1.0" encoding="utf-8"?>
 <ComicInfo>
     <!-- Título de la serie y volumen -->

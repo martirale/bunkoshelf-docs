@@ -12,9 +12,9 @@ La siguiente tabla describe los formatos admitidos para mangas en **Bunko Shelf*
 
 | Formato     | Extensión(es) | Básico | Streaming | Notas        |
 | ----------- | ------------- | ------ | --------- | ------------ |
-| Archivo ZIP | `.cbz`        | ✅     | ✅        |              |
+| Archivo ZIP | `.cbz` `.zip` | ✅     | ✅        |              |
 | Archivo RAR | `.cbr`        | ❌     | ❌        | Próximamente |
-| PDF         | `.pdf`        | ❌     | ❌        | Próximamente |
+| Archivo PDF | `.pdf`        | ❌     | ❌        | Próximamente |
 
 #### Básico
 

@@ -48,6 +48,7 @@ export default defineConfig({
           items: [
             { text: "¿Qué es Bunko Shelf?", link: "/guia/bunkoshelf" },
             { text: "Instalación", link: "/guia/instalacion" },
+            { text: "Instalación (beta)", link: "/guia/beta" },
           ],
         },
         {

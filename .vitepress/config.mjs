@@ -35,7 +35,10 @@ export default defineConfig({
         text: currentVersion,
         items: [
           { text: "Registro de cambios", link: "/otros/changelog" },
-          { text: "Hoja de ruta", link: "/otros/roadmap" },
+          {
+            text: "Hoja de ruta",
+            link: "https://github.com/users/martirale/projects/2/views/1",
+          },
           { text: "Licencia", link: "/otros/licencia" },
         ],
       },
